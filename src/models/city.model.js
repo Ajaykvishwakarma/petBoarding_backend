@@ -4,6 +4,7 @@ const petSchema = new mongoose.Schema(
     {
        
         city: {type:String, required: true},
+        id:{type : Number, required: true}
     },{
         versionKey: false,
         timestamps : true,
